@@ -1,4 +1,4 @@
-# nginx Configs
+# nginx Open Configs
 
 ## OS Optimization
 
