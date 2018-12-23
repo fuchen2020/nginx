@@ -15,8 +15,8 @@ root            hard    nofile          65535
 root            soft    nofile          65535
 EOF
 
-# Ubuntu Desktop
-# sudo sed -i '/DefaultLimitNOFILE/c DefaultLimitNOFILE=65535' /etc/systemd/*.conf
+# Systemd Services
+sudo sed -i '/DefaultLimitNOFILE/c DefaultLimitNOFILE=65535' /etc/systemd/*.conf
 ```
 
 ## References
